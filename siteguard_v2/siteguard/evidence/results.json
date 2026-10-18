@@ -1,0 +1,14 @@
+{
+  "requirement_sentence": "",
+  "model_name": "",
+  "fp16": {"fps": "", "latency_ms": "", "power_w": "", "accuracy": "baseline"},
+  "int8": {"fps": "", "latency_ms": "", "power_w": "", "accuracy": ""},
+  "tradeoff_sentence": "",
+  "dwell_seconds": "2",
+  "edge_optimization": true,
+  "closed_loop": false,
+  "live_intelligence": false,
+  "e2e_latency_ms": "",
+  "extra_outputs": "saved clip",
+  "team": ""
+}

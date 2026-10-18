@@ -1,0 +1,19 @@
+{
+  "mqtt": {"host": "localhost", "port": 1883, "topic": "siteguard/alerts"},
+  "frame": {"width": 1280, "height": 720},
+  "zone_id": "hazard_zone_1",
+  "zone_polygon_norm": [[0.55, 0.40], [0.95, 0.40], [0.95, 0.95], [0.55, 0.95]],
+  "dwell_seconds": 2.0,
+  "clear_seconds": 2.0,
+  "target_class": "person",
+  "min_confidence": 0.4,
+  "input_adapter": {
+    "objects_keys": ["objects", "detections"],
+    "class_keys": ["class", "label", "obj_label"],
+    "id_keys": ["track_id", "tracking_id", "object_id", "id"],
+    "conf_keys": ["confidence", "conf", "score"],
+    "bbox_key": "bbox",
+    "bbox_format": "xyxy"
+  },
+  "incident_log": "../evidence/incident_log.jsonl"
+}
